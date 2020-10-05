@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+body{
+	
+	font-family: Georgia, serif;
+	-webkit-font-smoothing: antialiased;
+	background:black;
+	display: block;
+}
+
+header{
+	background: #222222;
+}
+header ul{
+	position: absolute;
+	right: 25px;
+	top: 80;
+	padding:70px 25px;
+	position:relative;
+}
+
+header li{
+	list-style-type:none;
+	margin-left:10px;
+	float: left;
+}
+
+header li a{
+	display: block;
+	color: white;
+	background: #AD3231;
+	padding:7px 10px;
+}
+
+header li a:hover{
+	color: white;
+	background: #D26161;
+}
+
+
+h1{
+	text-align:center;
+	color:#AD3231;
+	padding:20px 0;
+	font-size:4.5em;
+	font-weight:bold;
+}
+
+main{
+	width:1000px;
+	margin:0 auto;
+}
+
+ul li{
+	float:left;
+	margin-right:1px;
+	list-style-type:none;
+}
+
+ul li a{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	width:100px;
+	padding:15px 20px;
+	background:#AD3231;
+	text-align: center;
+}
+
+ul li a:hover{
+	background:#D26161;
+	color:#FFF;
+}
+
+ul li a.current{
+	background:#F5F4F2;
+	color:#C15757;
+}
+
+#contents{
+	clear:both;
+	margin-bottom:150px;
+	display: block;
+}
+
+#contents div{
+	padding:20px 20px;
+	background:black;
+}
+
+#contents p{
+	margin-top:20px;
+	line-height:2em;
+	color:white;
+}
+
+#contents strong{
+	font-size:3em;
+	font-weight:bold;
+	color:#D6AF62;
+}
+
+#tab7 p{
+	font-size:2.0em;
+	color:#EC8519;
+	margin-bottom:0;
+	font-weight:bold;
+}
+
+#tab7 p.alert{
+	font-size:1em;
+	font-weight:normal;
+	margin:0;
+	color:#AD3231;
+}
+
+input[type="text"], textarea{
+	font-size:1.3em;
+	color:#333;
+	border:1px solid #CCC;
+	background:#EFEFEF;
+}
+
+input[type="mail"]{
+	font-size:1.3em;
+}
+
+textarea{
+	width:600px;
+	height:250px;
+}
+
+#submitBtn{
+	color:black;
+	background:#AD3231;
+	border:0;
+	border-radius:30px;
+	display:block;
+	margin:0 auto;
+	font-size:1.0em;
+	padding:10px 25px;
+	font-weight:bold;
+}
+
+#submitBtn:focus{
+	outline:none;
+}
+
+nav{
+	width: 100%;
+	top:0;
+	left:1;
+}
+
+.fontSmall{
+	font-size:.8em;
+}
+
+.fontMedium{
+	font-size:1em;
+}
+
+.fontLarge{
+	font-size:1.2em;
+}
+
+figure.goods{
+	float: left;
+	padding-right: 10px;
+}
